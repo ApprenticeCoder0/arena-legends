@@ -18,6 +18,7 @@ export class Game {
         this.menu = new Menu(this);
         this.hud = new HUD(this);
         this.unsubProfile = null;
+        this.battleSystem = null;
         this.bindEvents();
     }
     bindEvents() {
@@ -33,7 +34,7 @@ export class Game {
             }
         });
         document.getElementById('btn-back')?.addEventListener('click', () => {
-            if (this.battleSystem) this.battleSystem.stop();
+            if (this.battleSystem) { this.battleSystem.stop(); this.battleSystem = null; }
             this.transitionTo(GameState.MENU);
         });
     }
