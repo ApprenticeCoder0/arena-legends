@@ -1,0 +1,27 @@
+/**
+ * roster.js
+ * 
+ * Dados estáticos dos personagens.
+ * Em um jogo real, isso viria de um JSON server-side para hot-patching de balanceamento.
+ */
+
+export const ROSTER = [
+    { id: 'flash', name: 'The Flash', icon: '⚡', color: '#B22222', glow: '#FFFF00', hp: 350, speed: 12.0, cd: 999, damage: 25, rarity: 'rare', s1: 'SPEEDFORCE', s2: 'MIRAGE', final: 'INFINITE MASS' },
+    { id: 'hulk', name: 'World Breaker', icon: '🟢', color: '#006400', glow: '#00ff00', hp: 650, speed: 5.0, cd: 200, damage: 45, rarity: 'epic', s1: 'THUNDERCLAP', s2: 'GAMMA SMASH', final: 'WORLD BREAKER RAGE' },
+    { id: 'mahoraga', name: 'Mahoraga', icon: '☸️', color: '#fff', glow: '#FFD700', hp: 600, speed: 5.5, cd: 180, damage: 40, rarity: 'legendary', s1: 'DHARMA SLASH', s2: 'ADAPTATION', final: 'DIVINE GENERAL' },
+    { id: 'sukuna', name: 'Sukuna', icon: '👹', color: '#ff0000', glow: '#800000', hp: 420, speed: 6.0, cd: 170, damage: 35, rarity: 'epic', s1: 'DISMANTLE NET', s2: 'FIRE ARROW', final: 'MALEVOLENT SHRINE' },
+    { id: 'broly', name: 'Broly', icon: '🥦', color: '#00ff00', glow: '#adff2f', hp: 550, speed: 5.0, cd: 200, damage: 42, rarity: 'epic', s1: 'OMEGA BLASTER', s2: 'METEOR SHOWER', final: 'LEGENDARY RAGE' },
+    { id: 'yin', name: 'Yin', icon: '☯️', color: '#fff', glow: '#000', hp: 450, speed: 7.5, cd: 160, damage: 32, rarity: 'rare', s1: 'TAO DRAGON', s2: 'ABSORB BARRIER', final: 'REALITY SHIFT' },
+    { id: 'giorno', name: 'Giorno', icon: '🐞', color: '#FF1493', glow: '#FFD700', hp: 400, speed: 6.0, cd: 180, damage: 30, rarity: 'legendary', s1: 'LIFE SHOT', s2: 'MUDA RUSH', final: 'RETURN TO ZERO' },
+    { id: 'kaguya', name: 'Kaguya', icon: '🌙', color: '#fff', glow: '#ddd', hp: 550, speed: 4.5, cd: 210, damage: 38, rarity: 'legendary', s1: 'ASH BONES', s2: 'VACUUM FIST', final: 'EXPANSIVE TRUTH ORB' },
+    { id: 'zenitsu', name: 'Zenitsu', icon: '⚡', color: '#FFFF00', glow: '#fffacd', hp: 320, speed: 9.0, cd: 130, damage: 28, rarity: 'rare', s1: 'SIXFOLD', s2: 'THUNDERCLAP', final: '7TH FORM' },
+    { id: 'wukong', name: 'Sun Wukong', icon: '👑', color: '#ffd700', glow: '#ff4500', hp: 450, speed: 7.0, cd: 160, damage: 33, rarity: 'epic', s1: 'RUYI EXTEND', s2: 'COUNTER', final: 'ARMY OF GOD' },
+    { id: 'featherine', name: 'Featherine', icon: '📖', color: '#4B0082', glow: '#D8BFD8', hp: 450, speed: 5.0, cd: 180, damage: 36, rarity: 'legendary', s1: 'PLOT REWRITE', s2: 'STOP SCRIPT', final: 'AUTHORITY' },
+    { id: 'goku_mui', name: 'Goku MUI', icon: '⚪', color: '#e6e6e6', glow: '#fff', hp: 380, speed: 7.5, cd: 160, damage: 34, rarity: 'legendary', s1: 'KAMEHAMEHA', s2: 'DRAGON FIST', final: 'MASTERED UI' },
+    { id: 'saitama', name: 'Saitama', icon: '👊', color: '#ffff00', glow: '#fff', hp: 500, speed: 4.5, cd: 250, damage: 99, rarity: 'legendary', s1: 'SERIOUS PUNCH', s2: 'TABLE FLIP', final: 'DEATH PUNCH' },
+    { id: 'alucard', name: 'Alucard', icon: '🔫', color: '#8b0000', glow: '#ff0000', hp: 450, speed: 5.0, cd: 190, damage: 35, rarity: 'epic', s1: 'BASKERVILLE', s2: 'JACKAL', final: 'LEVEL 0 RELEASE' },
+    { id: 'gojo', name: 'Gojo', icon: '🤞', color: '#fff', glow: '#a020f0', hp: 380, speed: 6.0, cd: 180, damage: 32, rarity: 'legendary', s1: 'RED REVERSAL', s2: 'MUGEN', final: 'UNLIMITED VOID' },
+    { id: 'antimonitor', name: 'Anti-Monitor', icon: '👾', color: '#2F4F4F', glow: '#00CED1', hp: 700, speed: 3.5, cd: 220, damage: 48, rarity: 'legendary', s1: 'ANTIMATTER WAVE', s2: 'SHADOW DEMONS', final: 'UNIVERSE ERASURE' },
+    { id: 'garou', name: 'Cosmic Garou', icon: '🌌', color: '#111', glow: '#4B0082', hp: 500, speed: 7.0, cd: 180, damage: 37, rarity: 'epic', s1: 'NUCLEAR FISSION', s2: 'MODE COPY', final: 'GAMMA RAY BURST' },
+    { id: 'kratos', name: 'Kratos', icon: '🪓', color: '#b22222', glow: '#00eaff', hp: 420, speed: 4.5, cd: 200, damage: 38, rarity: 'epic', s1: 'AXE THROW', s2: 'BLADES', final: 'SPARTAN RAGE' }
+];
