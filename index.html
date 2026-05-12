@@ -5,14 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arena Legends: Online</title>
     <link rel="stylesheet" href="css/main.css">
-
-    <!-- Firebase SDK (Compat para facilitar no GitHub Pages sem bundler) -->
     <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
 </head>
 <body>
-    <!-- Camada de Autenticação -->
     <div id="auth-layer" class="layer">
         <div class="auth-box">
             <h1>ARENA LEGENDS</h1>
@@ -22,7 +19,6 @@
         </div>
     </div>
 
-    <!-- Camada do Menu Principal -->
     <div id="menu-layer" class="layer hidden">
         <header class="menu-header">
             <h1>ARENA LEGENDS</h1>
@@ -31,26 +27,24 @@
                 <button id="btn-logout" class="btn-small">Sair</button>
             </div>
         </header>
-
         <div class="menu-content">
             <div class="section">
                 <h2>Selecione seu Campeão</h2>
                 <div class="char-grid" id="char-grid"></div>
             </div>
-
             <div class="section sidebar">
                 <div class="profile-card">
                     <h3>Seu Perfil</h3>
                     <p>Nível: <span id="profile-level">1</span></p>
                     <p>Moedas: <span id="profile-coins">0</span></p>
                     <p>Vitórias: <span id="profile-wins">0</span></p>
+                    <p>Derrotas: <span id="profile-losses">0</span></p>
                 </div>
                 <button id="btn-play" class="btn-primary" disabled>SELECIONE 2</button>
             </div>
         </div>
     </div>
 
-    <!-- Camada de Batalha -->
     <div id="game-layer" class="layer hidden">
         <canvas id="arena"></canvas>
         <div class="hud">
@@ -69,7 +63,6 @@
         <button id="btn-back" class="btn-overlay">Voltar ao Menu</button>
     </div>
 
-    <!-- Scripts como módulos -->
     <script type="module" src="js/main.js"></script>
 </body>
 </html>

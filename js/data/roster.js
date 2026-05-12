@@ -1,10 +1,3 @@
-/**
- * roster.js
- * 
- * Dados estáticos dos personagens.
- * Em um jogo real, isso viria de um JSON server-side para hot-patching de balanceamento.
- */
-
 export const ROSTER = [
     { id: 'flash', name: 'The Flash', icon: '⚡', color: '#B22222', glow: '#FFFF00', hp: 350, speed: 12.0, cd: 999, damage: 25, rarity: 'rare', s1: 'SPEEDFORCE', s2: 'MIRAGE', final: 'INFINITE MASS' },
     { id: 'hulk', name: 'World Breaker', icon: '🟢', color: '#006400', glow: '#00ff00', hp: 650, speed: 5.0, cd: 200, damage: 45, rarity: 'epic', s1: 'THUNDERCLAP', s2: 'GAMMA SMASH', final: 'WORLD BREAKER RAGE' },
